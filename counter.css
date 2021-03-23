@@ -15,26 +15,17 @@ body{
    
 }
 
-.counter{
-	font-size: 30px;
-}
 
-.up{
-	font-size: 20px;
-}
 
-.down{
-	font-size: 20px;
-}
 
 @media screen and (min-width: 875px) {
   .counter {
     font-size: 50px;
   }
-  .up{
+  #up{
   	font-size: 50px;
   }
-  .down{
+  #down{
   	font-size: 50px;
   }
 }
@@ -44,11 +35,11 @@ body{
     font-size: 35px;
     color: red;
   }
-  .up{
+  #up{
   	font-size: 35px;
   	color: red;
   }
-  .down{
+  #down{
   	font-size: 35px;
   	color: red;
   	
@@ -60,11 +51,11 @@ body{
     font-size: 15px;
     color: blue;
   }
-  .up{
+  #up{
   	font-size: 15px;
   	color: blue;
   }
-  .down{
+  #down{
   	font-size: 15px;
   	color: blue;
   }
